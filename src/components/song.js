@@ -13,7 +13,7 @@ const Song = ({artiest, titel, index}) => {
             { !edit ?
                     (
                         <Preview k={index}>
-                            <p>{artiest}</p>
+                            <p>{index}: {artiest}</p>
                             <p>{titel}</p>
                         </Preview>
                     )
